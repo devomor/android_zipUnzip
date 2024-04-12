@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="1"
+                    android:layout_weight="0.92">
+
+                    <androidx.appcompat.widget.Toolbar
+                        android:theme="@style/ToolbarColoredBackBlack"
+                        android:id="@+id/toolbar"
+                        android:visibility="visible"
+                        android:layout_width="match_parent"
+                        android:layout_height="?attr/actionBarSize">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:textSize="18sp"
+                            android:textColor="#393e4a"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Photos"
+                            android:fontFamily="@font/overpass_semibold" />
+                    </androidx.appcompat.widget.Toolbar>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="1"
+                    android:layout_weight="0.08">
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:weightSum="1"
+                        android:layout_weight="0.25">
+
+                        <LinearLayout
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:weightSum="1"
+                            android:layout_weight="0.85">
+
+                            <LinearLayout
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:orientation="horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:weightSum="1"
+                                android:layout_weight="0.5">
+
+                                <LinearLayout
+                                    android:gravity="center"
+                                    android:layout_gravity="center"
+                                    android:orientation="horizontal"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:weightSum="1"
+                                    android:layout_weight="0.5">
+
+                                    <LinearLayout
+                                        android:gravity="center"
+                                        android:layout_gravity="center"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="0.8">
+
+                                        <CheckBox
+                                            android:gravity="center"
+                                            android:layout_gravity="center"
+                                            android:id="@+id/selectAllCheckBox"
+                                            android:layout_width="25dp"
+                                            android:layout_height="25dp"
+                                            android:text=""
+                                            android:layoutDirection="rtl"
+                                            style="@style/CustomCheckbox01" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:gravity="center"
+                                        android:layout_gravity="center"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="0.2">
+
+                                        <TextView
+                                            android:textSize="14sp"
+                                            android:textColor="#2a70fe"
+                                            android:gravity="center"
+                                            android:layout_gravity="center"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="5dp"
+                                            android:text="Select All"
+                                            android:fontFamily="@font/overpass_semibold" />
+                                    </LinearLayout>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:gravity="center"
+                                    android:layout_gravity="center"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="0.5">
+
+                                    <TextView
+                                        android:textSize="14sp"
+                                        android:textColor="#a6a6ae"
+                                        android:gravity="center"
+                                        android:layout_gravity="center"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="10dp"
+                                        android:text="All Image Files"
+                                        android:fontFamily="@font/overpass_regular" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:background="@drawable/bg_searchview"
+                                android:visibility="visible"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_weight="0.5">
+
+                                <androidx.appcompat.widget.SearchView
+                                    android:gravity="center"
+                                    android:layout_gravity="center"
+                                    android:id="@+id/search"
+                                    android:background="@android:color/transparent"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    app:defaultQueryHint="Search File....." />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.15">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="10dp">
+
+                                <androidx.recyclerview.widget.RecyclerView
+                                    android:id="@+id/fragment_storage_list"
+                                    android:scrollbars="vertical"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginTop="8dp" />
+
+                                <androidx.appcompat.widget.AppCompatTextView
+                                    android:textSize="18sp"
+                                    android:textColor="#393e4a"
+                                    android:gravity="center"
+                                    android:layout_gravity="center"
+                                    android:id="@+id/noitem"
+                                    android:visibility="gone"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="No Files Found"
+                                    android:layout_centerInParent="true"
+                                    android:fontFamily="@font/overpass_semibold" />
+
+                                <com.github.clans.fab.FloatingActionMenu
+                                    android:id="@+id/menu"
+                                    android:padding="10dp"
+                                    android:visibility="visible"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_alignParentRight="true"
+                                    app:menu_animationDelayPerItem="50"
+                                    app:menu_backgroundColor="#7dffffff"
+                                    app:menu_buttonSpacing="0dp"
+                                    app:menu_colorNormal="#ff2899ef"
+                                    app:menu_colorPressed="#ff3595de"
+                                    app:menu_colorRipple="#99ffffff"
+                                    app:menu_fab_label="Cancel"
+                                    app:menu_fab_size="normal"
+                                    app:menu_icon="@drawable/fab_add"
+                                    app:menu_labels_colorNormal="#a8333333"
+                                    app:menu_labels_colorPressed="#b0444444"
+                                    app:menu_labels_colorRipple="#66ffffff"
+                                    app:menu_labels_cornerRadius="3dp"
+                                    app:menu_labels_ellipsize="start"
+                                    app:menu_labels_hideAnimation="@anim/fab_slide_out_to_right"
+                                    app:menu_labels_margin="0dp"
+                                    app:menu_labels_maxLines="-1"
+                                    app:menu_labels_padding="8dp"
+                                    app:menu_labels_paddingBottom="4dp"
+                                    app:menu_labels_paddingLeft="8dp"
+                                    app:menu_labels_paddingRight="8dp"
+                                    app:menu_labels_paddingTop="4dp"
+                                    app:menu_labels_position="left"
+                                    app:menu_labels_showAnimation="@anim/fab_slide_in_from_right"
+                                    app:menu_labels_showShadow="true"
+                                    app:menu_labels_singleLine="false"
+                                    app:menu_labels_textColor="#ffffffff"
+                                    app:menu_labels_textSize="14sp"
+                                    app:menu_openDirection="up"
+                                    app:menu_shadowColor="#66000000"
+                                    app:menu_shadowRadius="2dp"
+                                    app:menu_shadowXOffset="2dp"
+                                    app:menu_shadowYOffset="2dp"
+                                    app:menu_showShadow="true">
+
+                                    <com.github.clans.fab.FloatingActionButton
+                                        android:layout_gravity="bottom|left"
+                                        android:id="@+id/delete"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginRight="8dp"
+                                        android:layout_marginBottom="8dp"
+                                        android:src="@drawable/delete_icon"
+                                        app:fab_colorNormal="#e94848"
+                                        app:fab_colorPressed="#e94848"
+                                        app:fab_colorRipple="#99ffffff"
+                                        app:fab_hideAnimation="@anim/fab_scale_down"
+                                        app:fab_label="Delete File(s)"
+                                        app:fab_showAnimation="@anim/fab_scale_up"
+                                        app:fab_size="mini" />
+
+                                    <com.github.clans.fab.FloatingActionButton
+                                        android:layout_gravity="bottom|left"
+                                        android:id="@+id/zip"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginRight="8dp"
+                                        android:layout_marginBottom="8dp"
+                                        android:src="@drawable/home_compressed_files_icon_white"
+                                        app:fab_colorNormal="#0cae65"
+                                        app:fab_colorPressed="#0cae65"
+                                        app:fab_colorRipple="#99ffffff"
+                                        app:fab_hideAnimation="@anim/fab_scale_down"
+                                        app:fab_label="Compress File(s)"
+                                        app:fab_showAnimation="@anim/fab_scale_up"
+                                        app:fab_size="mini" />
+                                </com.github.clans.fab.FloatingActionMenu>
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/banner1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center">
+
+            <RelativeLayout
+                android:id="@+id/banner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:gravity="center" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

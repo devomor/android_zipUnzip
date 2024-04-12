@@ -1,0 +1,54 @@
+<resources>
+
+
+    <string name="version">Version</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="storage_permission_is_required_to_save_the_photo_and_videos_from_social_media_nplease_allow">This Permission is required to download the photos &amp; videos from Social Media.\nplease grant permission</string>
+
+   <string name="alert">Alert</string>
+    <string name="androidx_startup">androidx.startup</string>
+    <string name="app_name">Unzip Files App - Zip &amp; Unzip Files</string>
+    <string name="bottomsheet_action_expand_halfway">Expand halfway</string>
+    <string name="character_counter_content_description">Characters entered %1$d of %2$d</string>
+    <string name="character_counter_overflowed_content_description">Character limit exceeded %1$d of %2$d</string>
+    <string name="character_counter_pattern">%1$d/%2$d</string>
+    <string name="chip_text">Chip text</string>
+    <string name="clear_text_end_icon_content_description">Clear text</string>
+    <string name="delete">Delete</string>
+    <string name="deletesure">Are you sure you want to Delete this file?</string>
+    <string name="error_icon_content_description">Error</string>
+    <string name="error_msg_storage">Application is unable to access files from storage</string>
+    <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
+    <string name="filecompress">File is Successfully Compressed.</string>
+    <string name="icon_content_description">Dialog Icon</string>
+    <string name="item_view_role_description">Tab</string>
+    <string name="items">%d items</string>
+    <string name="mesag_ret_user_stop_this">User stopped the process</string>
+    <string name="message_ret_commnds">Command line error</string>
+    <string name="message_ret_faults">Fatal error</string>
+    <string name="msg_ret_memmory">Not enough memory for operation</string>
+    <string name="msg_ret_success">Success</string>
+    <string name="msg_ret_warning">Warning (Non fatal error(s))</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>
+    <string name="okay">Okay</string>
+    <string name="open_folder">Open Folder</string>
+    <string name="password_toggle_content_description">Show password</string>
+    <string name="pelasewait">Please Wait</string>
+    <string name="process_progress_messag">Please Wait ....</string>
+    <string name="s1">Save image</string>
+    <string name="s2">Allow Ad to store image in Picture gallery?</string>
+    <string name="s3">Accept</string>
+    <string name="s4">Decline</string>
+    <string name="s5">Create calendar event</string>
+    <string name="s6">Allow Ad to create a calendar event?</string>
+    <string name="s7">Test Ad</string>
+    <string name="search_menu_title">Search</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="sucess_zip">Successfully Zipped</string>
+    <string name="take_som">Process may take some time</string>
+    <string name="tedpermission_close">Close</string>
+    <string name="zip34">Zipping Your File</string>
+    <string name="zipping_3">Your Files are successfully Zipped</string>
+    <string name="zipping_dialog_title">Zipping Files</string>
+</resources>

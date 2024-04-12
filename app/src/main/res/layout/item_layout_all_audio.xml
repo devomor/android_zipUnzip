@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="70dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/linCartesianGraph"
+        android:padding="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.88">
+
+            <CheckBox
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@+id/check"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@android:color/transparent"
+                android:button="@drawable/checkbox_selector"
+                 />
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1"
+            android:layout_weight="0.12">
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.42">
+
+                <io.github.florent37.shapeofview.shapes.RoundRectView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    app:shape_circle_borderColor="#93989d"
+                    app:shape_circle_borderWidth="1dp"
+                    app:shape_roundRect_bottomLeftRadius="10dp"
+                    app:shape_roundRect_bottomRightRadius="10dp"
+                    app:shape_roundRect_topLeftRadius="10dp"
+                    app:shape_roundRect_topRightRadius="10dp">
+
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:id="@+id/file_item_icon"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:scaleType="centerCrop" />
+                </io.github.florent37.shapeofview.shapes.RoundRectView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:id="@+id/item"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1"
+                android:layout_weight="0.16">
+
+                <TextView
+                    android:textSize="15sp"
+                    android:textColor="#262626"
+                    android:id="@+id/file_item_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:text="Cartesian Graph"
+                    android:singleLine="true"
+                    android:fontFamily="@font/overpass_semibold" />
+
+                <TextView
+                    android:textSize="14sp"
+                    android:textColor="#93989d"
+                    android:id="@+id/file_sub_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:text="Create 5 types of charts and graphs"
+                    android:singleLine="true"
+                    android:fontFamily="@font/overpass_regular" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@+id/linMenu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.42">
+
+                <ImageView
+                    android:background="@drawable/menu_icon_more"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

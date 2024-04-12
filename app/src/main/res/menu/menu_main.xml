@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/rate"
+        android:orderInCategory="100"
+        android:title="Rate us"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/share"
+        android:orderInCategory="100"
+        android:title="Share app"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/privacy"
+        android:orderInCategory="100"
+        android:title="Privacy Policy"
+        app:showAsAction="never" />
+</menu>

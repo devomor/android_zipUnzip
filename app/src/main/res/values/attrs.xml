@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr format="reference" name="preferenceTheme"/>
+    <attr name="catalogToolbarStyle" format="reference"/>
+    <attr name="catalogToolbarWithCloseButtonStyle" format="reference"/>
+    <attr name="textInputSignInStyle" format="reference"/>
+</resources>

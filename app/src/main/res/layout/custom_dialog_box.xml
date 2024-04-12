@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="280dp"
+    android:layout_centerInParent="true">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/bg_rounded_corner_dialogs"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1"
+                android:layout_weight="0.6">
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.4">
+
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:visibility="visible"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/compress_files_dialog_box_icon" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.6">
+
+                    <TextView
+                        android:textSize="16sp"
+                        android:textColor="#282f36"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Compress files into the..."
+                        android:fontFamily="@font/overpass_semibold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1"
+                android:layout_weight="0.4">
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="1"
+                    android:layout_weight="0.5">
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.43" />
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.14">
+
+                        <LinearLayout
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:orientation="horizontal"
+                            android:id="@+id/linCompressFilesZip"
+                            android:background="@drawable/bg_dialog_select_option_open"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:weightSum="1">
+
+                            <LinearLayout
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.3">
+
+                                <TextView
+                                    android:textSize="16sp"
+                                    android:textColor="#ffffff"
+                                    android:gravity="center"
+                                    android:layout_gravity="center"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Compress files in .zip"
+                                    android:fontFamily="@font/overpass_bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.7">
+
+                                <ImageView
+                                    android:layout_gravity="center"
+                                    android:visibility="visible"
+                                    android:layout_width="30dp"
+                                    android:layout_height="30dp"
+                                    android:src="@drawable/format_zip_folder_icon" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.43" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp" />
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="1"
+                    android:layout_weight="0.5">
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.43" />
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.14">
+
+                        <LinearLayout
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:orientation="horizontal"
+                            android:id="@+id/linCompressFiles7Zip"
+                            android:background="@drawable/bg_dialog_select_option_open"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:weightSum="1"
+                            android:backgroundTint="#393e4a">
+
+                            <LinearLayout
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.3">
+
+                                <TextView
+                                    android:textSize="16sp"
+                                    android:textColor="#ffffff"
+                                    android:gravity="center"
+                                    android:layout_gravity="center"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Compress files in 7.zip"
+                                    android:fontFamily="@font/overpass_bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.7">
+
+                                <ImageView
+                                    android:layout_gravity="center"
+                                    android:visibility="visible"
+                                    android:layout_width="30dp"
+                                    android:layout_height="30dp"
+                                    android:src="@drawable/format_7zip_folder_icon" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.43" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
